@@ -1,27 +1,14 @@
 var nama = "Alice";
-nama = "Bob"; // ✅ Bisa diubah
+nama = "Bob";
 
-let umur = 25;
-umur = 26; // ✅ Bisa diubah
+console.log(nama);
 
-// const negara = "Indonesia";
-// negara = "Jepang"; // ❌ Error: Assignment to constant variable
+let nama2 = "Henry";
+nama2 = "Rivardo";
 
-//CONTOH KASUS
+console.log(nama2);
 
-if (true) {
-  var x = 10;
-}
-console.log(x);
+const nama3 = "sihombing";
+nama3 = "Batak";
 
-/*
-Kenapa var tidak disarankan?
-
-Tidak memiliki block scope, yang bisa menyebabkan bug.
-
-Bisa dideklarasikan ulang tanpa peringatan.
-
-Sulit dilacak saat bekerja dengan kode besar.
-
-Padahal, kita berharap x hanya ada di dalam if. Nah, inilah masalah var!
-*/
+console.log(nama3);
